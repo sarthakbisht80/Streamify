@@ -1,7 +1,9 @@
 <h1 align="center">✨ Streamify ✨</h1>
 
 
-![SVG Screenshot](/frontend/public/i.svg)
+<p align="center">
+  <img src="frontend/public/i.svg" alt="SVG Screenshot" width="400" />
+</p>
 
 ### Highlights:
 
@@ -18,11 +20,12 @@
 
 ---
 
-![SignUpPage](/frontend/public/SignupPafge.png)
 
 
 
-
+<p align="center">
+  <img src="frontend/public/SignupPafge.png" alt="SVG Screenshot" width="400" />
+</p>
 
 
 
