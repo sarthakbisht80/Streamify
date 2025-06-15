@@ -1,6 +1,6 @@
 <h1 align="center">✨ Streamify ✨</h1>
 
-![SVG Screenshot](assets/i.svg)
+![SVG Screenshot](/i.svg)
 
 ### Highlights:
 
@@ -18,7 +18,8 @@
 ---
 
 
-![SignUpPage](assets/screenshot.png)  
+![SignUpPage](/screenshot.png)
+
 
 
 
