@@ -94,7 +94,7 @@ export async function login(req, res) {
       {
         userID: user._id,
       },
-      process.env.JWT_SECRET,
+      process.env.JWT_SECRET_KEY,
       { expiresIn: "7d" }
     );
 
@@ -108,6 +108,7 @@ export async function login(req, res) {
     res.status(200).json({ success: true, user });
   } catch (error) {
     console.log("Error duuring login:", error.message);
+    console.log("cant login")
     res.status(500).json({ message: "Internal Server Error" });
   }
 }

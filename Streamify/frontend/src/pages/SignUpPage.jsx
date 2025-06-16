@@ -1,10 +1,10 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
-import { ShipWheel, ShipWheelIcon } from "lucide-react";
+import { ShipWheelIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router";
 
-import signup from "../lib/api";
+import {signup} from "../lib/api";
 
 const SignUpPage = () => {
   const [signupData, setSignupData] = useState({
@@ -133,12 +133,13 @@ const {
           </div>
         </div>
 
-        {/* signup for ritghtSIde */}
+        {/* signup for RightSide */}
          <div className="hidden lg:flex w-full lg:w-1/2 bg-primary/10 items-center justify-center">
           <div className="max-w-md p-8">
             {/* Illustration */}
             <div className="relative aspect-square max-w-sm mx-auto">
-              <img src="/i.svg" alt="Language connection illustration" className="w-full h-full" />
+              <img src="i.svg" alt="Language connection illustration" className="w-full h-full" />
+              {/* <img src="/public/i.svg" */}
             </div>
 
             <div className="text-center space-y-3 mt-6">

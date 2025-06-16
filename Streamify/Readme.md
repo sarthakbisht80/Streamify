@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="frontend/public/i.svg" alt="SVG Screenshot" width="400" />
+  <img src="frontend/public/i.svg" alt="SVG Screenshot" height =" 400 "width="400" />
 </p>
 
 ### Highlights:
