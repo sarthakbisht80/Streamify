@@ -1,4 +1,4 @@
-<h1 align="center">✨ Streamify ✨</h1>
+<h1 align="center">✨ Streamify -Connect Seamlessly ✨</h1>
 
 
 <p align="center">
@@ -21,10 +21,11 @@
 ---
 
 
+<h2 align="center">SignUp Page</h2>
 
 
 <p align="center">
-  <img src="frontend/public/SignupPafge.png" alt="SVG Screenshot" width="400" />
+  <img src="frontend/public/SignupPafge.png" alt="SVG Screenshot" height="500"width="400" />
 </p>
 
 
