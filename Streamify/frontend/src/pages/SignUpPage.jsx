@@ -1,10 +1,7 @@
-import { useMutation, useQueryClient } from "@tanstack/react-query";
-
 import { ShipWheelIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Link } from "react-router";
-
-import {signup} from "../lib/api";
+import useSignUp from "../hooks/useSignup";
 
 const SignUpPage = () => {
   const [signupData, setSignupData] = useState({
@@ -12,13 +9,15 @@ const SignUpPage = () => {
     email: "",
     password: "",
   });
-const queryClient = useQueryClient();
-const {
-   mutate: signupMutation,isPending, error, } = useMutation({
-     mutationFn: signup,
-     onSuccess: () => queryClient.invalidateQueries({ queryKey: ["authUser"] }),
-   });
+//tjhis is previous
+// const queryClient = useQueryClient(); 
+// const {
+//    mutate: signupMutation,isPending, error, } = useMutation({
+//      mutationFn: signup,
+//      onSuccess: () => queryClient.invalidateQueries({ queryKey: ["authUser"] }),
+//    });
 
+const {isPending,error,signupMutation} = useSignUp()
 
   const handleSignup = (e) => {
     e.preventDefault();
@@ -30,7 +29,7 @@ const {
     <div
       className="h-screen flex items-center justify-center p-4 sm:p-6 md:p-8"
       data-theme="forest"
-    >
+    > 
       <div className="border border-primary/25 flex flex-col lg:flex-row w-full max-w-5xl mx-auto bg-base-100 rounded-xl shadow-lg overflow-hidden">
         {/* //signup form leftside  */}
         <div className="w-full lg:w-1/2 p-4 sm:p-8 flex flex-col">

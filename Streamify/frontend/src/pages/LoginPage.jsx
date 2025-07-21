@@ -1,29 +1,36 @@
-import { useMutation, useQueryClient } from '@tanstack/react-query';
-import React from 'react'
+import { useState } from "react";
 import { ShipWheelIcon } from "lucide-react";
 import { Link } from "react-router";
-import { useState } from 'react'
-import  {login}  from '../lib/api';
+import useLogin from "../hooks/useLogin";
+import useSignUp from "../hooks/useSignup";
 
-import useLogin from '../hooks/useLogin';
 const LoginPage = () => {
-
-  const[loginData,setLoginData]= useState({
-
-    email:"",
-    password:"",
+  const [loginData, setLoginData] = useState({
+    email: "",
+    password: "",
   });
-  
-  // custom hook
-const { isPending, error, loginMutation } = useLogin(); 
+
+  // This is how we did it at first, without using our custom hook
+  // const queryClient = useQueryClient();
+  // const {
+  //   mutate: loginMutation,
+  //   isPending,
+  //   error,
+  // } = useMutation({
+  //   mutationFn: login,
+  //   onSuccess: () => queryClient.invalidateQueries({ queryKey: ["authUser"] }),
+  // });
+
+  // This is how we did it using our custom hook - optimized version
+  const { isPending, error, loginMutation } = useLogin();
 
   const handleLogin = (e) => {
     e.preventDefault();
     loginMutation(loginData);
   };
-  return (
 
- <div
+  return (
+    <div
       className="h-screen flex items-center justify-center p-4 sm:p-6 md:p-8"
       data-theme="forest"
     >
@@ -127,7 +134,6 @@ const { isPending, error, loginMutation } = useLogin();
         </div>
       </div>
     </div>
-  )
-}
-
+  );
+};
 export default LoginPage;

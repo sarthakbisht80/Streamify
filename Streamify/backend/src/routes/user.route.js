@@ -11,7 +11,7 @@ router.use(protectRoute);
 
  router.get("/",getRecommendedUsers)
 
- router.get("/freinds",getMyFriends)
+ router.get("/friends",getMyFriends)
 
  router.post("/friends-request/:id",sendFriendRequest);
 

@@ -1,7 +1,5 @@
-
-import React from 'react'
-import Navbar from './Navbar';
-import Sidebar from './SIdebar';
+import Navbar from "./Navbar";
+import Sidebar from './Sidebar';
 
 
  const Layout = ({children, showSidebar=false}) => {
@@ -15,7 +13,7 @@ import Sidebar from './SIdebar';
             {children}
         </main>
       </div>
-     </div>
+     </div>h
 
 
     </div>

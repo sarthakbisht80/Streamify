@@ -138,7 +138,7 @@ export async function getOutgoingFriendReqs(req,res){
 
  try {
     const outgoingRequests = await FriendRequest.find({
-      sender: req.user.id,
+      sender: req.user.id,  
       status: "pending",
     }).populate("recipient", "fullName profilePic nativeLanguage learningLanguage");
 
