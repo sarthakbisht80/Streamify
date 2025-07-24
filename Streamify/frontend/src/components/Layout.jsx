@@ -13,7 +13,7 @@ import Sidebar from './Sidebar';
             {children}
         </main>
       </div>
-     </div>h
+     </div>
 
 
     </div>

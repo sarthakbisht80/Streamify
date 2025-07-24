@@ -10,7 +10,7 @@ import {
 import { Link } from "react-router";
 import { CheckCircleIcon, MapPinIcon, UserPlusIcon, UsersIcon } from "lucide-react";
 
-import { capitialize } from "../lib/utils";
+import capitialize from '../lib/utils';
 
 import FriendCard, { getLanguageFlag } from "../components/FriendCard";
 import NoFriendsFound from "../components/NoFriendsFound";
@@ -18,7 +18,6 @@ import NoFriendsFound from "../components/NoFriendsFound";
 // fucntion
 const HomePage = () => {
 
- 
 const queryClient = useQueryClient();
   const [outgoingRequestsIds, setOutgoingRequestsIds] = useState(new Set());
 
@@ -46,7 +45,7 @@ const queryClient = useQueryClient();
     const outgoingIds = new Set();
     if (outgoingFriendReqs && outgoingFriendReqs.length > 0) {
       outgoingFriendReqs.forEach((req) => {
-        // console.log(req);
+        console.log(req);
         outgoingIds.add(req.recipient._id);
       });
       setOutgoingRequestsIds(outgoingIds);
@@ -127,8 +126,8 @@ const queryClient = useQueryClient();
                           )}
                         </div>
                       </div>
-
                       {/* Languages with flags */}
+                       
                       <div className="flex flex-wrap gap-1.5">
                         <span className="badge badge-secondary">
                           {getLanguageFlag(user.nativeLanguage)}
