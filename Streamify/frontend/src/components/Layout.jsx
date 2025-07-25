@@ -1,5 +1,5 @@
 import Navbar from "./Navbar";
-import Sidebar from './Sidebar';
+import Sidebar from './SIdebar';
 
 
  const Layout = ({children, showSidebar=false}) => {
