@@ -2,7 +2,7 @@ import express from 'express';
 import   "dotenv/config";
 import cookieParser from 'cookie-parser';
 
-import path from "path";//coming from node.js
+import path from "path";       //coming from node.js
 import authRoutes from './routes/auth.route.js'; // Adjust the path as necessary
 import userRoutes from './routes/user.route.js'; // Adjust the path as necessary
 import { connectDB } from './lib/db.js';

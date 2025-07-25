@@ -29,7 +29,7 @@ const currentPath= location.pathname;
          <Link
           to="/friends"
           className={`btn btn-ghost justify-start w-full gap-3 px-3 normal-case ${
-            currentPath === "/friends " ? "btn-active" : ""
+            currentPath === "/friends" ? "btn-active" : ""
           }`}
         >
            <UsersIcon className="size-5 text-base-content opacity-70" />

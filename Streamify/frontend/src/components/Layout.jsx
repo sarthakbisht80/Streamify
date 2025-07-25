@@ -14,8 +14,6 @@ import Sidebar from './Sidebar';
         </main>
       </div>
      </div>
-
-
     </div>
   )
 }
