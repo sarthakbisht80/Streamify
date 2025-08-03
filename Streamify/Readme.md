@@ -8,17 +8,28 @@
 ### Highlights:
 
 - 🌐 Real-time Messaging with Typing Indicators & Reactions  
-- 📹 1-on-1 and Group Video Calls with Screen Sharing & Recording  
+- 📹 1-on-1 Video Calls with Screen Sharing & Recording  
 - 🔐 JWT Authentication & Protected Routes  
 - 🌍 Language Exchange Platform with 32 Unique UI Themes  
 - ⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query  
 - 🧠 Global State Management with Zustand  
 - 🚨 Error Handling (Frontend & Backend)  
-- 🚀 Free Deployment  
+- 🚀 Free Deployment  Render 
 - 🎯 Built with Scalable Technologies like Stream  
 - ⏳ And much more!
 
 ---
+
+### ⚒️Tech Stack:
+
+
+- **Frontend:** React.js, Tailwind CSS, TanStack Query, Zustand  
+- **Backend:** Node.js, Express.js, MongoDB  
+- **Authentication:** JWT  
+- **Third-Party:** Stream API  
+- **Deployment:** Vercel (frontend), Render/Railway (backend)
+
+
 
 
 <h2 align="center">SignUp Page</h2>
@@ -28,6 +39,26 @@
   <img src="frontend/public/SignupPafge.png" alt="SVG Screenshot" height="500"width="900" />
 </p>
 
+
+
+<h2 align="center">Home Page</h2>
+
+<p align="center">
+  <img src="frontend/public/HomePage.png" alt="SVG Screenshot" height="500"width="900" />
+</p>
+
+
+<h2 align="center">Chat Page</h2>
+
+<p align="center">
+  <img src="frontend/public/chatPage.png" alt="SVG Screenshot" height="500"width="900" />
+</p>
+
+<h2 align="center">Call Page</h2>
+
+<p align="center">
+  <img src="frontend/public/callPage.png" alt="SVG Screenshot" height="500"width="900" />
+</p>
 
 
 ## 🧪 .env Setup
@@ -66,3 +97,7 @@ cd frontend
 npm install
 npm run dev
 
+## 🔗 Links
+
+- [Live Demo](https://streamify-2-dqh1.onrender.com)  
+- [Contact Me](bishtsarthak80@gmail.com)
