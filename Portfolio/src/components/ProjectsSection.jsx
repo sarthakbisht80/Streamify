@@ -6,20 +6,20 @@ const projects = [
     title: "Streamify",
     description: "A real-time chat application with instant messaging and a sleek, responsive UI.",
     image: "/projects/Pro-1.png",
-    tags: ["React", "TailwindCSS", "MongoDB Atlas","NodeJS","ExpresJS"],
+    tags: ["React", "Tailwind CSS", "MongoDB Atlas", "Node.js", "Express.js"],
     demoUrl: "https://streamify-2-dqh1.onrender.com",
     githubUrl: "https://github.com/sarthakbisht80/Streamify/tree/main/Streamify",
   },
 
   {
     id: 2,
-    title: "E-commerce Platform",
+    title: "Movie-App",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "Netflix Inspired Movie application with robust ui and ",
+    image: "/projects/Pro-2.png",
+    tags: ["React", "Firebase","Firestore Database","TailwindCSS"],
+    demoUrl: "https://movie-one-eta.vercel.app/",
+    githubUrl: "https://github.com/sarthakbisht80/Streamify/tree/main/Movie-app/netflix-clone",
   },
 ];
 
