@@ -2,7 +2,7 @@
 <p align="center">A full-stack, real-time language exchange platform enabling users to chat, video call, and collaborate with ease — across themes, languages, and devices.</p>
 
 <p align="center">
-  <img src="frontend/public/i.svg" alt="SVG Screenshot" height =" 400 "width="400" />
+  <img src="/Streamify/frontend/public/Signuppafge.png" alt="SVG Screenshot" height =" 400 "width="400" />
 </p>
 
 ### Highlights:
